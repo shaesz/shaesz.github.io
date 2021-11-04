@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+		About Us
+	</title>
+
+	<style>
+	*{
+			box-sizing:border-box;
+	}
+	body {
+		margin:0;
+		background:gray;
+	}
+	nav {
+		background:#594848;
+		width:100%;
+		overflow:auto;
+	}
+	ul {
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	li {
+		float:left;
+	}
+	nav a {
+		width:120px;
+		display:block;
+		text-decoration:none;
+		text-align:center;
+		background:#594848
+		font-size:17px;
+		color:white;
+		padding:20px 10px;
+		font-family:Arial;
+	}
+	nav a:hover {
+		background:skyblue;
+		color:black;
+	}
+    .table-box {
+        margin: 50px auto;
+    }
+    .table-row {
+        display: table;
+        width: 80%;
+        margin: 10px auto;
+        font-family: sans-serif;
+        background: transparent;
+        padding: 12px 0;
+        color: #040404;
+        font-size: 15px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+    }
+	.table-cell{
+        display: table-cell;
+        width: 30%;
+        text-align: center;
+        padding: 4px 0;
+        border-right: 1px solid #d6d4d4;
+        vertical-align: middle;
+    }
+    .table-head {
+        background: #8665f7;
+        box-shadow: none;
+        color: #fff;
+        font-weight: 600;
+    }
+    .table-head .table-cell {
+        border-right: none;
+    }
+    .last-cell {
+        border-right: none;
+    }
+    .first-cell {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+	</style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="photo_Gallery.html">Photo Gallery</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <h1 align="center">
+        <font face="Lato" color="#594848" size="7">
+            MY TIMETABLE
+        </font>
+    </h1>
+
+    <table border ="1" cellspacing="0" align="center">
+     
+
+        <tr align="center">
+            <th><font size = "5">Hours</font></th>
+            <th><font size = "5">Sunday</font></th>
+            <th><font size = "5">Monday</font></th>
+            <th><font size = "5">Tuesday</font></th>
+            <th><font size = "5">Wednesday</font></th>
+            <th><font size = "5">Thursday</font></th>
+        </tr>
+
+        <tr align="center">
+            <th>8.00-9.00</th>
+            <td rowspan = "2">CSC508</td>
+            <td rowspan = "2">CSC577</td>
+            <td rowspan = "2">CSC569</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>9.00-10.00</th>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>10.00-11.00</th>
+            <td rowspan = "2">CSC569</td>
+            <td rowspan = "2">CSC574</td>
+            <td rowspan = "2">ELC650</td>
+            <td rowspan = "2">CSC577</td>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>11.00-12.00</th>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>12.00-13.00</th>
+            <td>CTU554</td>
+            <td rowspan = "2">CSC584</td>
+            <td></td>
+            <td>CTU554</td>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>13.00-14.00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>14.00-15.00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="2">CSC508</td>
+            <td rowspan = "2">CSC584</td>
+        </tr>
+
+        <tr align="center">
+            <th>15.00-16.00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>16.00-17.00</th>
+            <td></td>
+            <td rowspan="2">TMC451</td>
+            <td rowspan = "2">CSC574</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>17.00-18.00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <br />
+    <h1 align="center">
+        <br />
+        <font face="Lato" color="#594848" size="7">
+            MY EXPECTED GRADES
+        </font>
+    </h1>
+
+<div class="table-box">
+<div class="table-row table-head" >
+    <div class="table-cell first-cell">
+        <p>CURRENT REGISTERED COURSE</p>
+    </div>
+    <div class="table-cell">
+        <p>EXPECTED GRADES</p>
+    </div>
+</div>
+
+<div class="table-row">
+    <div class="table-cell first-cell">
+        <p>CSC508 - Data Structures</p>
+    </div>
+    <div class="table-cell last-cell">
+        <p>A</p>
+    </div>
+</div>
+
+<div class="table-row">
+    <div class="table-cell first-cell">
+        <p>CSC569 - Principles Of Compilers</p>
+    </div>
+    <div class="table-cell last-cell">
+        <p>A+</p>
+    </div>
+</div>
+
+<div class="table-row">
+    <div class="table-cell first-cell">
+        <p>CSC574 - Dynamic Web Application Development</p>
+    </div>
+    <div class="table-cell last-cell">
+        <p>A</p>
+    </div>
+</div>
+
+<div class="table-row">
+    <div class="table-cell first-cell">
+        <p>CSC577 - Software Engineering-Theories And Principles</p>
+    </div>
+    <div class="table-cell last-cell">
+        <p>A</p>
+    </div>
+</div>
+
+<div class="table-row">
+    <div class="table-cell first-cell">
+        <p>CSC584 - Enterprise Programming</p>
+    </div>
+    <div class="table-cell last-cell">
+        <p>A</p>
+    </div>
+</div>
+
+<div class="table-row">
+    <div class="table-cell first-cell">
+        <p>CTU554 - Values And Civilization II</p>
+    </div>
+    <div class="table-cell last-cell">
+        <p>A+</p>
+    </div>
+</div>
+
+<div class="table-row">
+    <div class="table-cell first-cell">
+        <p>ELC650 - English For Professional Interaction</p>
+    </div>
+    <div class="table-cell last-cell">
+        <p>A</p>
+    </div>
+</div>
+
+<div class="table-row">
+    <div class="table-cell first-cell">
+        <p>TMC451 - Introductory Mandarin (Level II)</p>
+    </div>
+    <div class="table-cell last-cell">
+        <p>A</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
