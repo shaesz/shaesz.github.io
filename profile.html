@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+    body {
+        margin:0;
+        background:gray;
+    }
+    nav {
+        background:#594848;
+        width:100%;
+        overflow:auto;
+    }
+    ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
+    li {
+        float:left;
+    }
+    nav a {
+        width:120px;
+        display:block;
+        text-decoration:none;
+        text-align:center;
+        background:#594848
+        font-size: 17px;
+        color:white;
+        padding:20px 10px;
+        font-family:Arial;
+    }
+    nav a:hover {
+        background:skyblue;
+        color:black;
+    }
+    .wrapper {
+        position: absolute;
+        top: 130%;
+        padding-bottom: 50px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 900px;
+        display: flex;
+        box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    }
+    .wrapper .left {
+        width: 35%;
+        background: linear-gradient(to right, #01a9ac, #01dbdf);
+        padding: 30px 25px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-align: center;
+        color: #fff;
+    }
+    .wrapper .left img {
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .wrapper .left h4 {
+        margin-bottom: 10px;
+    }
+    .wrapper .left p {
+        font-size: 12px;
+    }
+    .wrapper .right {
+        width: 200%;
+        background: #fff;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 50px 25px;
+    }
+    .wrapper .right .info,
+    .wrapper .right .projects,
+    .wrapper .right .experience,
+    .wrapper .right .activities,
+    .wrapper .right .education {
+        margin-bottom: 25px;
+    }
+    .wrapper .right .info h3,
+    .wrapper .right .projects h3,
+    .wrapper .right .experience h3,
+    .wrapper .right .activities h3,
+    .wrapper .right .education h3 {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e0e0e0;
+        color: #353c4e;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    .wrapper .right .info_data,
+    .wrapper .right .projects_data,
+    .wrapper .right .exp_data,
+    .wrapper .right .activities_data,
+    .wrapper .right .education_data {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper .right .info_data .data,
+    .wrapper .right .projects_data .data,
+    .wrapper .right .exp_data .data,
+    .wrapper .right .activities_data .data,
+    .wrapper .right .education_data .data {
+        width: 45%;
+    }
+    .wrapper .right .info_data .data h4,
+    .wrapper .right .projects_data .data h4,
+    .wrapper .right .exp_data .data h4,
+    .wrapper .right .activities_data .data h4,
+    .wrapper .right .education_data .data h4 {
+        color: #353c4e;
+        margin-bottom: 5px;
+    }
+    .wrapper .right .info_data .data p,
+    .wrapper .right .projects_data .data p,
+    .wrapper .right .exp_data .data p,
+    .wrapper .right .activities_data .data p,
+    .wrapper .right .education_data .data p {
+        font-size: 13px;
+        margin-bottom: 10px;
+        color: #919aa3;
+    } 
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="photo_Gallery.html">Photo Gallery</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <div class="left">
+            <img src = "image/profile.png" alt="user" width="100">
+            <h4>Nur Syahirah</h4>
+            <p>Student</p>
+        </div>
+
+        <div class="right">
+            <div class="info">
+                <h3>Information</h3>
+                <div class = "info_data">
+                    <div class="data">
+                        <h4>Name</h4>
+                        <p>Nur Syahirah Binti Mohd Ramzi</p>
+                    </div>
+                    <div class="data">
+                        <h4>Age</h4>
+                        <p>21 years old</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects">
+                <h3>Academic Information</h3>
+                <div class="projects_data">
+                    <div class="data">
+                        <h4>Programme</h4>
+                        <p>CS230 - Degree in Computer Science</p>
+                    </div>
+                    <div class="data">
+                        <h4>Campus</h4>
+                        <p>T5 - UiTM Kampus Kuala Terengganu</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience">
+                <h3>Working Experience</h3>
+                <div class="exp_data">
+                    <div class="data">
+                        <h4>Internship</h4>
+                        <p>Internship at SMK Kok Lanas (July 2020 - October 2020)</p>
+                        <p>- Developed and run scratch activities for school</p>
+                        <p>- Handling file</p>
+                        <p>- Tasked with creating and launshing daily eblasts and calls-to-action for high-velocity email campaigns</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activities">
+                <h3>Extra Curricular Activities</h3>
+                <div class="activities_data">
+                    <div class="data">
+                        <h4>School Prefects</h4>
+                        <p>2014 - 2016</p>
+                        <h4>Committee member of Computer Science Club UiTM Machang</h4>
+                        <p>March 2019 - March 2021</p>
+                        <h4>Exco Academic of Computer Science Club UiTM Machang</h4>
+                        <p>September 2019 - March 2021</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education">
+                <h3>Education</h3>
+                <div class="education_data">
+                    <div class="data">
+                        <h4>Sekolah Kebangsaan Pangkal Gong</h4>
+                        <p>2007 - 2012</p>
+                        <h4>Maahad Muhammadi Perempuan, Kota Bharu</h4>
+                        <p>2013 - 2017</p>
+                        <h4>Diploma in Computer Science in UiTM Machang</h4>
+                        <p>September 2018 - March 2021</p>
+                        <h4>Degree in Computer Science</h4>
+                        <p>March 2021 - now</p>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <p><br></p>
+
+</body>
+</html>
